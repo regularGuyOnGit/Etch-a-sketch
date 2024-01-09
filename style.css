@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+    background-color: #917171;;
+}
+.container{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    margin: 10px auto;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    /* align-items: start; */
+    background: #3f2828;
+    box-shadow: #788348 14px 18px;
+}
+
+.subContainer{
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-grow: 1;
+}
+.boxes{
+flex-grow: 1;
+/* border:0.2px solid blue; */
+background-color: yellowgreen;
+}
+.boxBG{
+    background-color: rgb(255, 251, 0);
+    /* cursor: pointer; */
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+.reset{
+    color: red;
+    background-color: yellowgreen;
+    width: 60px;
+    height: 30px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px;
+    margin: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px;
+    margin: 10px auto;
+}
+
+.userInput{
+    margin : 2px auto;
+    width : 55%;
+    display : flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+}
+
+
+.userInput button{
+    height: 50px;
+    width: 70px;
+    background-color: aqua;
+    border-radius: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px;
+    margin: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px;
+}
+.userInput span{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin: 0 2px; */
+    text-decoration: underline;
+    color: rgb(19, 238, 165);
+}
+
